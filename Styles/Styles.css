@@ -272,7 +272,7 @@ select, input {
 }
 .form-input-select {
     appearance: none;
-    background-image: url("../Assets/Expand More.svg");
+    background-image: url(".../Assets/Expand More.svg");
     background-repeat: no-repeat;
     background-position: 95% 50%;
 }
