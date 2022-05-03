@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>OurFriends</title>
+  <link rel="stylesheet" href="./Styles/Styles.css">
+  <link href="http://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+  <script type="text/javascript" src="https://livejs.com/live.js"></script>
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+<header class="header">
+  <nav class="nav-bar secondary-text">
+    <div class="nav-bar-wrapper">
+      <div class="nav-logo-wrapper">
+        <i class="nav-logo"></i>
+        <span class="nav-title">OurFriends</span>
+      </div>
+
+      <div class="nav-menu-wrapper">
+        <span class="nav-menu-item">Про нас</span>
+        <span class="nav-menu-item">Новини</span>
+        <span class="nav-menu-item">Блог</span>
+        <i class="nav-menu-icon"></i>
+        <div class="menu-button"></div>
+      </div>
+
+    </div>
+    </div>
+  </nav>
+</header>
+<div class="page-wrapper">
+  <div class="page-wrapper">
+    <section class="registration-section">
+      <div class="registration-form-wrapper">
+        <div class="form-card">
+          <div class="form-wrapper">
+            <h2 class="form-title">Електронна черга
+              для допомоги тваринкам</h2>
+            <form class="registration-form flex-column" action="submit">
+
+              <label class="form-label" for="name">Імʼя</label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="Введіть імʼя" required>
+
+              <label class="form-label" for="phone" required>Телефон</label>
+              <input class="form-input" type="tel" id="phone" name="phone" placeholder="+38 (_) __ __ __">
+
+              <label class="form-label" for="select">Оберіть тваринку</label>
+              <select class="form-input form-input-select"name="" id="select"  required>
+                <option value="dinosaur">Динозавр Дно</option>
+                <option value="tolik">Єнот Толік</option>
+                <option value="hamster">Хом'ячок Хамстер</option>
+                <option value="bear">Ведмідь Андрій</option>
+                <option value="dog">Песик Міна</option>
+              </select>
+              <button class="form-submit-button" type="submit">Зареєструватися</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="registration-section">
+    <div class="registration-form-wrapper">
+      <div class="registration-form-image-wrapper">
+        <img class="registration-form-image" id="animal-img" src="./Assets/Animals.svg" alt="animal-img">
+      </div>
+    </div>
+  </section>
+</div>
+<footer class="footer secondary-text">
+    <span class="footer-credentials">
+      ©2022 OurFriends. Всі права захищені.
+    </span>
+</footer>
+</body>
+
+</html>
