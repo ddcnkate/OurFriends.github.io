@@ -102,7 +102,7 @@ body{
 .nav-menu-icon {
     display: inline-block;
     top: 5px;
-    background-image: url("../Assets/Icon.svg");
+    background-image: url("../Assets/icon.svg");
     background-position: center;
     width: 38px;
     height: 35px;
